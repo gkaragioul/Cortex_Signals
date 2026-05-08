@@ -1,0 +1,15 @@
+.git
+.env
+.env.*
+.venv
+venv
+env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.db-journal
+*.log
+dist
+build
