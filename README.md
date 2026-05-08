@@ -85,7 +85,7 @@ $env:POLYMARKET_WALLET_TRACKER_ENABLED="false"
 | `TELEGRAM_CHAT_ID` | Yes for Telegram | Authorized Telegram chat/user ID |
 | `CORTEX_PUBLIC_URL` | Yes for Telegram webhook | Public app URL |
 | `TELEGRAM_WEBHOOK_SECRET` | Optional | Secret token checked on Telegram webhook calls |
-| `POLYMARKET_WALLET_TRACKER_ENABLED` | Optional | Enables background scanner/backtest loops; defaults to `true` |
+| `POLYMARKET_WALLET_TRACKER_ENABLED` | Optional | Enables background scanner/backtest loops; defaults to `false` |
 | `POLYMARKET_SCAN_INTERVAL` | Optional | Scan interval in seconds |
 | `POLYMARKET_MIN_EDGE_PCT` | Optional | Minimum edge threshold |
 | `POLYMARKET_MAX_RESULTS` | Optional | Maximum returned/scored opportunities |

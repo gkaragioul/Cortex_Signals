@@ -19,4 +19,4 @@ Cortex Signals installs Python dependencies from `requirements.txt` during deplo
 
 ## Deployment note
 
-If Cortex Signals is packaged or redistributed, include this file and any dependency license texts or package metadata required by the relevant third-party licenses.
+If Cortex Signals is packaged or redistributed, include this file plus the full dependency license texts or package metadata required by the relevant third-party licenses. MIT/BSD/ISC-style dependencies generally require preserving copyright and license notices; Apache-2.0 dependencies require preserving the license text and any upstream NOTICE file.

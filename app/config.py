@@ -13,7 +13,7 @@ class Settings:
 
     # Polymarket intelligence
     POLYMARKET_ENABLED: bool = os.getenv("POLYMARKET_ENABLED", "true").lower() == "true"
-    POLYMARKET_WALLET_TRACKER_ENABLED: bool = os.getenv("POLYMARKET_WALLET_TRACKER_ENABLED", "true").lower() == "true"
+    POLYMARKET_WALLET_TRACKER_ENABLED: bool = os.getenv("POLYMARKET_WALLET_TRACKER_ENABLED", "false").lower() == "true"
     POLYMARKET_SIM_ENABLED: bool = os.getenv("POLYMARKET_SIM_ENABLED", "true").lower() == "true"
     POLYMARKET_SCAN_INTERVAL: int = int(os.getenv("POLYMARKET_SCAN_INTERVAL", "600"))  # 10 min (was 30 — edges close in 2-5 min)
     POLYMARKET_MIN_EDGE_PCT: float = float(os.getenv("POLYMARKET_MIN_EDGE_PCT", "12.0"))
