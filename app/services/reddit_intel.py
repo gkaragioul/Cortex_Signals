@@ -47,7 +47,7 @@ SUBREDDITS = [
 
 POSTS_PER_SUB = 5
 FETCH_TIMEOUT = 8
-UA = "Mozilla/5.0 (Cortex Signals; +https://github.com/karagioules/Cortex_Signals)"
+UA = "Mozilla/5.0 (Cortex Signals; +https://github.com/georgekgr12/Cortex_Signals)"
 
 
 def _fetch_sub(sub: str) -> list[dict]:
