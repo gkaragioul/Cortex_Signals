@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 AI Analyst for Cortex Signals
 ==================================

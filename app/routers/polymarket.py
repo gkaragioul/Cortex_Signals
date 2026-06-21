@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """Cortex public endpoints — Telegram webhook + click tracker.
 
 v3.22.0 — the dashboard API (recommendations, wallets, mispricing, simulator,

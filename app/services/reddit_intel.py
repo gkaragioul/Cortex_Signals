@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """Reddit intel digest — scans prediction-market / trading subs once per day and
 sends a single Telegram message ~1h before the daily digest.
 
@@ -47,7 +49,7 @@ SUBREDDITS = [
 
 POSTS_PER_SUB = 5
 FETCH_TIMEOUT = 8
-UA = "Mozilla/5.0 (Cortex Signals; +https://github.com/georgekgr12/Cortex_Signals)"
+UA = "Mozilla/5.0 (Cortex Signals; +https://github.com/gkaragioul/Cortex_Signals)"
 
 
 def _fetch_sub(sub: str) -> list[dict]:

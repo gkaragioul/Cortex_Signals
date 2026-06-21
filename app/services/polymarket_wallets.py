@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 Polymarket Copy-Trading Intelligence System v4
 

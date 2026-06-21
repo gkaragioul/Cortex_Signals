@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """v3.20.4 — Exit-rule engine.
 
 Single source of truth for the "when to close a manual position" advice

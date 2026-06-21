@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 Polymarket Paper Trading Simulator v2
 

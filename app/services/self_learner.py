@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 Self-Learning Engine for Cortex Signals
 ===========================================

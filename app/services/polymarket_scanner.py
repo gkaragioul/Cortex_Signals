@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 Polymarket Intelligence Scanner v3 — Full trader-grade analysis system.
 

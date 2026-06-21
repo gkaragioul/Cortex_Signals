@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """Proactive Telegram opportunity alerts — Intelligence Officer pivot (v3.19.0).
 
 The bot can't auto-trade Polymarket from Greece (geoblocked from Railway IPs),

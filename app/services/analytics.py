@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """Analytics queries that derive truth from the existing sim_bets table.
 
 Phase 1 of the validation roadmap: no schema changes, no simulator touches.

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 Signal configuration — per-signal enable/disable with database persistence.
 Postgres-first, SQLite fallback (same pattern as simulator).

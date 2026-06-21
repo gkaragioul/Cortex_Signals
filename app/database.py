@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 import aiosqlite
 from app.config import settings
 

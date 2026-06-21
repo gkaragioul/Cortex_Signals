@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """Telegram push notifications for ManualShots.
 
 Sends HTML-formatted alerts with a clickable Polymarket link so the user can

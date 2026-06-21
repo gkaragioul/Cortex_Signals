@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """v3.20.4 — Exit monitor for manual Cortex positions.
 
 When opportunity_alerts fires a Telegram entry alert, we auto-track the

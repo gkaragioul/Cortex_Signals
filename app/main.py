@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """Cortex Signals — Telegram-only service.
 
 v3.22.0 — the webapp was shut down. No HTML, no dashboard, no auth. The

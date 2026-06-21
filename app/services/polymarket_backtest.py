@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+
 """
 Polymarket Historical Backtest Engine
 

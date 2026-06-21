@@ -60,7 +60,7 @@ The current codebase is signals-only. It does not include live-wallet execution,
 ## Local development
 
 ```bash
-git clone https://github.com/georgekgr12/Cortex_Signals.git
+git clone https://github.com/gkaragioul/Cortex_Signals.git
 cd Cortex_Signals
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
