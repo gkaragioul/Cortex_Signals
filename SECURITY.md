@@ -6,7 +6,7 @@ Cortex Signals is an archived experimental project. It is shared publicly for re
 
 ## Reporting a vulnerability
 
-Please open a GitHub issue with a clear description and reproduction steps. Do not include live secrets, private keys, tokens, database URLs, or personal account details in public issues.
+The repository is archived and read-only on GitHub, so issues and pull requests are closed and no security fixes will be released. If you find a problem, fix it in your own fork. Never publish live secrets, private keys, tokens, database URLs, or personal account details.
 
 ## Secret handling
 

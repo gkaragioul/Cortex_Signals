@@ -16,7 +16,7 @@
 
 ---
 
-> This is an abandoned/archived experimental project shared for learning and reference. It is not financial advice, not a trading recommendation engine, and not production-ready software.
+> This is an abandoned experimental project, archived (read-only) on GitHub and shared for learning and reference. It is not financial advice, not a trading recommendation engine, and not production-ready software.
 
 ## What it does
 
@@ -59,7 +59,7 @@ The current codebase is signals-only. It does not include live-wallet execution,
 
 ## Local development
 
-```bash
+```powershell
 git clone https://github.com/gkaragioul/Cortex_Signals.git
 cd Cortex_Signals
 python -m venv .venv
