@@ -75,6 +75,8 @@ $env:POLYMARKET_WALLET_TRACKER_ENABLED="false"
 .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
+Open `http://127.0.0.1:8000/health` to confirm the server is running; it returns `{"status":"ok"}`. To receive signals, fill in the Telegram variables in `.env` (see [Configuration](#configuration)) and set `POLYMARKET_WALLET_TRACKER_ENABLED=true`. When `CORTEX_PUBLIC_URL` and `TELEGRAM_BOT_TOKEN` are both set, the app registers its Telegram webhook at startup. The included `Procfile`, `Dockerfile`, and `railway.toml` run the same app on a hosted platform.
+
 ## Configuration
 
 | Variable | Required | Description |
@@ -111,6 +113,10 @@ Python dependencies are installed from `requirements.txt` during deployment. See
 ## Security
 
 See [SECURITY.md](SECURITY.md) for reporting and secret-handling guidance.
+
+## Disclaimer
+
+Cortex Signals is provided as is, without warranty of any kind, under the [MIT License](LICENSE). Use it at your own risk; you are responsible for how you deploy and use it. It does not place trades, but its signals can be wrong or late, and any position you open because of them is your own decision and your own risk. With the background workers enabled it calls the third-party services listed above using your own API keys and accounts.
 
 ## License
 
